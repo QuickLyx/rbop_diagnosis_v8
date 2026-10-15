@@ -1,0 +1,6 @@
+# 实验产物与本地数据不纳入代码提交。
+outputs/
+Data/
+__pycache__/
+*.py[cod]
+.pytest_cache/

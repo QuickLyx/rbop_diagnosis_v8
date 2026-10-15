@@ -1,0 +1,9 @@
+# v8 沿用已验证环境，不引入新的算法依赖；joblib 随 scikit-learn 安装。
+# 本地解释器：E:/tool/anaconda/envs/fault-detect/python.exe（Python 3.13.9）。
+torch==2.6.0
+numpy==2.5.2; python_version >= "3.12"
+numpy>=2.3,<2.5; python_version < "3.12"
+scipy==1.18.1; python_version >= "3.12"
+scipy>=1.14,<1.18; python_version < "3.12"
+scikit-learn==1.9.0
+# threadpoolctl 是 scikit-learn 已安装的依赖；用于 Windows 小样本 k-means 单线程。
